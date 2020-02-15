@@ -1,0 +1,18 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+.box{
+    width: 220px;
+    height: 120px;
+    /* 默认情况下，webpack无法处理css文件中的url地址，不管是图片还是字体库，只要是url地址都处理不了 */
+    background:url('../images/659c0ac3d5628535c666fdc298ef76c6a5ef6398.jpg');
+    background-size:cover;
+}
+.box2{
+    width: 220px;
+    height: 120px;
+    /* 默认情况下，webpack无法处理css文件中的url地址，不管是图片还是字体库，只要是url地址都处理不了 */
+    background:url('../images/659c0ac3d5628535c666fdc298ef76c6a5ef6398.jpg');
+    background-size:cover;
+}
